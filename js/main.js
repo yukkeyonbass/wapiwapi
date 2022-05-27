@@ -26,6 +26,8 @@
 
         if (panelsLeft === 0) {
           checkResult();
+              alert('当たっても何もないで( ﾟДﾟ)');
+
           spin.classList.remove('inactive');
           panelsLeft = 3;
         }
